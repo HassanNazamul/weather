@@ -1,6 +1,6 @@
 import Search from "./Components/Search";
 import './App.css';
-import CurrentWeather from "./Components/CurrentWeather";
+// import CurrentWeather from "./Components/CurrentWeather";
 
 function App() {
   
@@ -12,7 +12,7 @@ function App() {
 
     <div className="container">
       <Search onSeacrhChange={handleOnSeacrhChange}></Search>
-      <CurrentWeather></CurrentWeather>
+      {/* <CurrentWeather></CurrentWeather> */}
 
     </div>
   )

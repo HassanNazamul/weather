@@ -6,3 +6,5 @@ export const geoApiOptions = {
 	}
 };
 
+export const ApiUrl = "https://wft-geo-db.p.rapidapi.com/v1/geo";
+
